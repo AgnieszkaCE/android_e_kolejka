@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E_Kolejka</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="button_login">Login</string>
+    <string name="haslo">Hasło</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="title_activity_pokoj">PokojActivity</string>
+    <string name="title_activity_numer">Kolejka</string>
+    <string name="pobierz">Pobierz</string>
+    <string name="zero">0</string>
+    <string name="stan">Sprawdź</string>
+</resources>

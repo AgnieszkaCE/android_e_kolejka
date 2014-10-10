@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pasek"
+        android:background="#ff51546b"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/pokoj_nazwa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ff51546b"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_gravity="right">
+
+        <Button
+            android:id="@+id/pobierz_numerek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff5fb9c2"
+            android:layout_marginBottom="20dp"
+            android:text="@string/pobierz"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stan"
+            android:background="#ff5fb9c2"
+            android:id="@+id/stan"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/kolejka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff51546b"
+            android:textSize="70sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentStart="false" />
+    </RelativeLayout>
+
+</LinearLayout>
