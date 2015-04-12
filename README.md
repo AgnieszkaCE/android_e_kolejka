@@ -4,4 +4,4 @@
 
 **Opis:**  Dzięki aplikacji klient może uzyskać informacje o istniejących pokojach, zapisać się do kolejki oraz sprawdzić, czy posiada numer.
 
-Strona Internetowa znajduje się w projekcie o nazwie Praca.
+Strona Internetowa znajduje się w projekcie o nazwie *E_Kolejka_Django*.
